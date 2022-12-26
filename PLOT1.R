@@ -11,6 +11,6 @@ hist(as.numeric(as.character(subpower$Global_active_power)),col="red",main="Glob
 #annoting the graph
 title(main="Global Active Power")
 ## save to png
-dev.copy(png,"PLOT.png", width=480, height=480)
+dev.copy(png,"PLOT1.png", width=480, height=480)
 ## close PNG device
 dev.off()
